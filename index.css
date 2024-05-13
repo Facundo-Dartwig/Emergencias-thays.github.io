@@ -1,0 +1,76 @@
+*{
+    /* Eliminar predeterminados */
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bg-imagen {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../img/Exit.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.texto-en-bg {
+    color: #ffffff;
+    text-align: center;
+    width: 50%;
+}
+
+.title {
+    /* Estilos de título h1 */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+    background-color: #178E79;
+    padding: 60px;
+}
+
+.text-footer {
+    width: 25%;
+    padding: 0 15px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #00c3ff;
+}
+
+.div-select {
+    background-color: #ff4400;
+    max-height: 5rem;
+    max-width: 20rem;
+    padding: auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.pdfview {
+    /* Centrado */
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+    /* Tamaño */
+    width: 850px;
+    height: 100vh;
+    /* Mejorar aspecto */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
