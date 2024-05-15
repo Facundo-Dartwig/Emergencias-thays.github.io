@@ -74,3 +74,14 @@ footer {
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+@media screen and (max-width: 768px) { /* Cambia el ancho en dispositivos con un ancho de pantalla máximo de 768px (típicamente dispositivos móviles) */
+    .pdfview {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) { /* Cambia el ancho en dispositivos con un ancho de pantalla máximo de 768px (típicamente dispositivos móviles) */
+    .pdfview {
+        width: 100%;
+    }
+}
